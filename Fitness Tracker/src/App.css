@@ -460,6 +460,7 @@ body {
 
 .progress-ring-content {
   position: absolute;
+  inset: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

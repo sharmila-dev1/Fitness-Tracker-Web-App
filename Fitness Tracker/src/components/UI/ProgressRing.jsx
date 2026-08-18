@@ -20,12 +20,12 @@ export default function ProgressRing({ percentage = 0, size = 80, strokeWidth = 
           fill="none" stroke={color}
           strokeWidth={strokeWidth}
           strokeDasharray={circumference}
-          // strokeDashoffset={offset}
+          strokeDashoffset={offset}
           strokeLinecap="round"
           style={{ transition: "stroke-dashoffset 0.6s ease" }}
         />
       </svg>
-      <div className="pr0gress-ring-content">
+      <div className="progress-ring-content">
         <span className="ring-value"> { value || `${Math.round(percentage)}%`}</span>
         {label && <span className="ring-label"> {label}</span>}
       </div>
