@@ -1,4 +1,3 @@
-import { onAuthStateChanged } from "firebase/auth";
 import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider,useTheme } from "./context/ThemeContext";
 import Sidebar from "./components/Layout/Sidebar";
@@ -21,16 +20,6 @@ function Layout({ children }) {
 }
 
 export default function App() {
-  // const [user, setUser] = useState(null);
-  // useEffect(() => {
-  //   onAuthStateChanged(auth, (currentUser) => {
-  //     setUser(currentUser);
-  //   });
-  // }, []);
-
-  // if (!user) {
-  //   return <Login setUser={setUser} />;
-  // }
   return (
    <ThemeProvider>
     <BrowserRouter>
