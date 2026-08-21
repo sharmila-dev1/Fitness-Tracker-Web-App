@@ -3,12 +3,12 @@ import {generateId,getTodayDate} from '../utils/Helpers'
 
 const INITIAL_WORKOUTS = [
   { id: '1', date: '2026-08-08', name: 'Morning Run', type: 'Cardio', duration: 35, calories: 320, notes: 'Felt great!' },
-  { id: '2', date: '2026-04-29', name: 'Upper Body', type: 'Strength', duration: 50, calories: 280, notes: 'New PR on bench' },
-  { id: '3', date: '2026-04-30', name: 'Yoga Flow', type: 'Flexibility', duration: 45, calories: 150, notes: 'Good stretch session' },
+  { id: '2', date: '2026-05-05', name: 'Upper Body', type: 'Strength', duration: 50, calories: 280, notes: 'New PR on bench' },
+  { id: '3', date: '2026-05-02', name: 'Yoga Flow', type: 'Flexibility', duration: 45, calories: 150, notes: 'Good stretch session' },
   { id: '4', date: '2026-05-01', name: 'HIIT Circuit', type: 'HIIT', duration: 30, calories: 410, notes: 'Intense!' },
-  { id: '5', date: '2026-05-02', name: 'Leg Day', type: 'Strength', duration: 60, calories: 350, notes: 'Squats and deadlifts' },
-  { id: '6', date: '2026-05-05', name: 'Cycling', type: 'Cardio', duration: 55, calories: 480, notes: 'Outdoor ride' },
-  { id: '7', date: '2026-05-07', name: 'Core Blast', type: 'Strength', duration: 25, calories: 200, notes: 'Ab day' },
+  { id: '5', date: '2026-04-30', name: 'Leg Day', type: 'Strength', duration: 60, calories: 350, notes: 'Squats and deadlifts' },
+  { id: '6', date: '2026-04-29', name: 'Cycling', type: 'Cardio', duration: 55, calories: 480, notes: 'Outdoor ride' },
+  { id: '7', date: '2026-04-28', name: 'Core Blast', type: 'Strength', duration: 25, calories: 200, notes: 'Ab day' },
 ];
 
 export function useWorkouts(){
