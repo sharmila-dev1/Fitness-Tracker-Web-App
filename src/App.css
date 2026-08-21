@@ -1027,21 +1027,34 @@ textarea.form-input { resize: vertical; }
   :root { --sidebar-w: 0px; }
   .app-sidebar { display: none; }
   .app-main { margin-left: 0; }
-  .app-navbar { display: flex; }
+  .app-navbar { display: flex; padding: 0 10px; gap: 6px; }
+  .navbar-brand { font-size: 15px; flex-shrink: 0;}
+  .nav-links { display: flex; gap: 2px;  flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none;}
+  .nav-link::-webkit-scrollbar { display: none;}
+  .nav-link-item { flex-shrink: 0; padding: 6px 8px; font-size: 11px; white-space: nowrap;}
+  .navbar-actions { gap: 5px; flex-shrink: 0; }
+  .theme-toggle { padding: 6px 8px; font-size: 14px; }
+  .user-avatar { width: 30px; height: 30px; }
   .page-content { padding: 20px 16px 48px; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: 1fr; }
   .dashboard-grid { grid-template-columns: 1fr; }
   .span-2, .span-3 { grid-column: span 1; }
   .workout-grid { grid-template-columns: 1fr; }
   .meal-card { flex-wrap: wrap; }
   .form-grid { grid-template-columns: 1fr; }
   .form-group.span-2 { grid-column: span 1; }
+  .dashboard-card { padding: 18px; }
+  .ring-row { gap: 10px;}
 }
 
 @media (max-width: 480px) {
-  .stats-grid { grid-template-columns: 1fr 1fr; }
-  .filter-bar { flex-direction: column; align-items: flex-start; }
-  .search-input { width: 100%; }
+  .page-content { padding: 16px 12px 40px; }
+  .page-title { font-size: 24px; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .filter-bar { flex-direction: column; align-items: stretch; }
+  .search-input { width: 100%; box-sizing: border-box; }
+  .nav-link-item { padding: 6px 7px; font-size: 11px; }
+  .navbar-brand { font-size: 14px; }
 }
 
 /* ── Scrollbar ── */

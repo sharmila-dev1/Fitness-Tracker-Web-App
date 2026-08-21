@@ -1,16 +1,82 @@
-# React + Vite
+🏋️ Fitness Tracker Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive fitness tracking web application built with React.js that helps users monitor workouts, nutrition, and fitness progress through an interactive dashboard.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+View Live Demo
 
-## React Compiler
+✨ Features
+📊 Interactive fitness dashboard
+🏋️ Workout tracking
+🥗 Nutrition tracking
+📈 Progress visualization using charts
+🎯 Fitness goal monitoring
+💧 Water and activity tracking
+🔥 Workout streak tracking
+🌙 Dark mode
+📱 Responsive user interface
+💾 Data persistence using Local Storage
+🧩 Component-based React architecture
+🛠️ Technologies Used
+React.js
+JavaScript
+HTML5
+CSS3
+Bootstrap
+React Router
+Chart.js
+React Chart.js 2
+Vite
+ESLint
+📂 Project Structure
+src/
+├── assets/
+├── components/
+│   ├── Charts/
+│   ├── Layout/
+│   └── UI/
+├── context/
+├── hooks/
+├── pages/
+└── utils/
+⚙️ Getting Started
+1. Clone the repository
+git clone https://github.com/sharmila-dev1/Fitness-Tracker-Web-App.git
+2. Navigate to the project
+cd Fitness-Tracker-Web-App
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application will be available at the local development URL shown in your terminal.
 
-## Expanding the ESLint configuration
+🏗️ Production Build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To create a production build:
+
+npm run build
+
+To preview the production build:
+
+npm run preview
+📊 Key Highlights
+
+This project demonstrates practical experience with React component architecture, React Hooks, client-side routing, reusable UI components, Local Storage, chart-based data visualization, and responsive design.
+
+🔮 Future Enhancements
+Backend integration with Node.js and Express.js
+MongoDB database integration
+User authentication
+Cloud data synchronization
+Personalized fitness recommendations
+Advanced analytics and progress reports
+👩‍💻 Author
+
+Sharmila
+
+Frontend / MERN Stack Developer
+
+GitHub: https://github.com/sharmila-dev1
+Live Project: https://fitness-tracker-web-app-ruddy.vercel.app/
